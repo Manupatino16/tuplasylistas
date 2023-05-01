@@ -1,0 +1,13 @@
+1. Encontrar los errores
+
+a. en este punto en la parte de lista_colores ["rojo","azul","verde",'amarillo']
+le hace falta el signo de igual, como tambien podria ser un error en la sintaxis de las coimillas simples y comillas dobles, lo usual seria utilizar solo un tipo de comillas.
+
+b. en este otro punto me muestran esto 
+lista_colores=["rojo","azul","verde","amarillo"]
+print(lista_colores(0)) el error que encuentro ahi es que donde va el 0 no serian parentesis() sino corchetes[]
+
+y en este otro
+lista_colores=["rojo","azul","verde"]
+print(lista_colores[-0]) aca no existe el -0
+print(lista_colores[-4]) y aca no se puede el -4 porque solo tenemos 3 elementos
